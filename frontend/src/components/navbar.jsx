@@ -1,11 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "../index.css";
 
 export default function Navbar() {
+    const location = useLocation();
+    const isLandingPage = location.pathname === "/";
+
     return (
         <>
-
             <nav className="nav-bar">
                 <div className="nav-left">
                     <div className="nav-logo">Bloom <span className="nav-flo">FLO.</span></div>
@@ -26,9 +28,11 @@ export default function Navbar() {
                         <span className="notification-count">2</span>
                         <span className="username">[username]</span>
                         <div className="user-avatar">👤</div>
-                        <Link to="/logout" className="logout-nav-btn">
-                            <button className="logout-button">Logout</button>
-                        </Link>
+                        {!isLandingPage && (
+                            <Link to="/logout" className="logout-nav-btn">
+                                <button className="logout-button">Logout</button>
+                            </Link>
+                        )}
                     </div>
                 </div>
             </nav>
