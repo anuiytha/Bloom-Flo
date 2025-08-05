@@ -1,10 +1,12 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useAuth } from '../contexts/authContext/index';
 import "../index.css";
 
 export default function Navbar() {
     const location = useLocation();
     const isLandingPage = location.pathname === "/";
+    const { currentuser } = useAuth();
 
     return (
         <>
@@ -26,7 +28,7 @@ export default function Navbar() {
                     <div className="user-info">
                         <span className="lightning-icon">⚡</span>
                         <span className="notification-count">2</span>
-                        <span className="username">[username]</span>
+                        <span className="username">Welcome back, {currentuser?.displayName || currentuser?.email || 'User'} ❤️</span>
                         <div className="user-avatar">👤</div>
                         {!isLandingPage && (
                             <Link to="/logout" className="logout-nav-btn">
