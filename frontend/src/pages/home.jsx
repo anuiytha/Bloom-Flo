@@ -5,7 +5,7 @@ import Navbar from '../components/navbar';
 export default function Home() {
     return (
         <div className="home-container">
-            <Navbar />
+            {/* <Navbar /> */}
 
             <div className="home-main-content">
                 {/* Left Section - Vision Board/Inspiration */}
