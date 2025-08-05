@@ -885,10 +885,9 @@ button:focus-visible {
   border: 1px solid rgba(255, 255, 255, 0.2);
   width: 100%;
   height: 100%;
-  overflow-y: auto;
-  max-height: 100%;
   display: flex;
   flex-direction: column;
+  min-height: 0;
 }
 
 .vision-board-header {
@@ -945,13 +944,12 @@ button:focus-visible {
 
 .vision-board-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
   margin-bottom: 1.5rem;
-  max-height: 300px;
-  overflow-y: auto;
   flex: 1;
   min-height: 0;
+  align-content: start;
 }
 
 .image-container {
@@ -1115,9 +1113,8 @@ button:focus-visible {
 }
 
 .vision-board-section {
-  flex: 1;
+  flex: 2;
   min-height: 0;
-  overflow: hidden;
   margin-right: 1rem;
 }
 
@@ -1125,6 +1122,7 @@ button:focus-visible {
   display: flex;
   gap: 1rem;
   align-items: flex-start;
+  flex: 1;
 }
 
 .calendar-2024 {
@@ -1175,7 +1173,6 @@ button:focus-visible {
   flex-direction: column;
   gap: 2rem;
   height: 100%;
-  overflow-y: auto;
 }
 
 .section-title {
@@ -1253,7 +1250,6 @@ button:focus-visible {
   flex-direction: column;
   gap: 2rem;
   height: 100%;
-  overflow-y: auto;
 }
 
 .community-box,
