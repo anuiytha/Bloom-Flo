@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Lexend, Poppins, Inter;
+  font-family: "Times New Roman", Times, serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -73,7 +73,7 @@ button:focus-visible {
 }
 
 .logo {
-  font-family: serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 3rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
@@ -83,7 +83,7 @@ button:focus-visible {
 }
 
 .flo {
-  font-family: sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 900;
   font-size: 3.5rem;
   margin-left: 0.5rem;
@@ -117,7 +117,7 @@ button:focus-visible {
   background: #6d5a8d;
   color: #fff;
   font-size: 1.5rem;
-  font-family: monospace;
+  font-family: "Times New Roman", Times, serif;
   border: none;
   border-radius: 8px;
   padding: 0.7rem 2.5rem;
@@ -152,7 +152,7 @@ button:focus-visible {
 }
 
 .landing-title {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
@@ -161,7 +161,7 @@ button:focus-visible {
 }
 
 .landing-desc {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.35rem;
   color: #231f20;
   margin-bottom: 1.2rem;
@@ -209,7 +209,7 @@ button:focus-visible {
 }
 
 .register-title {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2.2rem;
   font-weight: bold;
   color: #231f20;
@@ -217,7 +217,7 @@ button:focus-visible {
 }
 
 .register-subtitle {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.1rem;
   color: #6d5a8d;
   margin: 0;
@@ -236,7 +236,7 @@ button:focus-visible {
 }
 
 .form-label {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.1rem;
   font-weight: bold;
   color: #231f20;
@@ -246,7 +246,7 @@ button:focus-visible {
   padding: 1rem;
   border: 2px solid #bbaed6;
   border-radius: 12px;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1rem;
   background: rgba(255, 255, 255, 0.8);
   color: #231f20;
@@ -275,7 +275,7 @@ button:focus-visible {
   color: #c62828;
   padding: 0.75rem;
   border-radius: 8px;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 0.9rem;
   text-align: center;
   border: 1px solid #ffcdd2;
@@ -284,7 +284,7 @@ button:focus-visible {
 .register-btn {
   background: #6d5a8d;
   color: white;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.2rem;
   font-weight: bold;
   padding: 1rem 2rem;
@@ -311,7 +311,7 @@ button:focus-visible {
 
 .login-link {
   text-align: center;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1rem;
   color: #6d5a8d;
   margin-top: 1rem;
@@ -401,14 +401,14 @@ button:focus-visible {
 }
 
 .nav-left .nav-logo {
-  font-family: serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.8rem;
   font-weight: 600;
   color: #231f20;
 }
 
 .nav-flo {
-  font-family: sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 900;
   font-size: 2rem;
   margin-left: 0.3rem;
@@ -421,7 +421,7 @@ button:focus-visible {
 }
 
 .nav-link {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1rem;
   font-weight: bold;
   color: #231f20;
@@ -457,7 +457,7 @@ button:focus-visible {
   border: none;
   background: transparent;
   outline: none;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 0.9rem;
   color: #231f20;
   width: 150px;
@@ -471,7 +471,7 @@ button:focus-visible {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 0.9rem;
   color: #231f20;
 }
@@ -511,7 +511,7 @@ button:focus-visible {
 }
 
 .welcome-title {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2.5rem;
   font-weight: bold;
   color: #231f20;
@@ -519,7 +519,7 @@ button:focus-visible {
 }
 
 .welcome-subtitle {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.3rem;
   color: #6d5a8d;
   margin: 0;
@@ -554,7 +554,7 @@ button:focus-visible {
 }
 
 .card-title {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.4rem;
   font-weight: bold;
   color: #231f20;
@@ -562,7 +562,7 @@ button:focus-visible {
 }
 
 .card-description {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1rem;
   color: #6d5a8d;
   margin: 0;
@@ -604,7 +604,7 @@ button:focus-visible {
 }
 
 .speech-bubble p {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1rem;
   color: #231f20;
   margin: 0;
@@ -692,7 +692,7 @@ button:focus-visible {
 }
 
 .logout-title {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2.2rem;
   font-weight: bold;
   color: #231f20;
@@ -700,7 +700,7 @@ button:focus-visible {
 }
 
 .logout-subtitle {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.1rem;
   color: #6d5a8d;
   margin: 0;
@@ -713,7 +713,7 @@ button:focus-visible {
 }
 
 .logout-message {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.1rem;
   color: #231f20;
   line-height: 1.6;
@@ -731,7 +731,7 @@ button:focus-visible {
 }
 
 .logout-btn {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.1rem;
   font-weight: bold;
   padding: 1rem 2rem;
@@ -780,7 +780,7 @@ button:focus-visible {
 .logout-button {
   background: #6d5a8d;
   color: white;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 0.9rem;
   font-weight: bold;
   border: none;
@@ -849,7 +849,7 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.5rem;
   color: #6d5a8d;
 }
@@ -893,7 +893,7 @@ button:focus-visible {
 }
 
 .vision-board-title {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2.2rem;
   font-weight: bold;
   color: #231f20;
@@ -901,7 +901,7 @@ button:focus-visible {
 }
 
 .vision-board-subtitle {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.1rem;
   color: #6d5a8d;
   margin: 0;
@@ -919,7 +919,7 @@ button:focus-visible {
 .upload-button {
   background: #6d5a8d;
   color: white;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.1rem;
   font-weight: bold;
   padding: 1rem 2rem;
@@ -994,7 +994,7 @@ button:focus-visible {
 .save-button {
   background: #6d5a8d;
   color: white;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.2rem;
   font-weight: bold;
   padding: 1rem 2.5rem;
@@ -1031,7 +1031,7 @@ button:focus-visible {
 }
 
 .empty-state p {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.1rem;
   margin: 0;
 }
